@@ -1,0 +1,27 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    background-color: #bbb8b8;
+    border-radius: 20px;
+}
+
+.header__subHeader {
+    text-align: center;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+}

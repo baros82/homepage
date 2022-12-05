@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/currency.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+    <title>Kalkulator walut</title>
+</head>
+
+<body class="body">
+    <header class="header">
+        <h1 class="header__subHeader">Kantor</h1>
+    </header>
+
+    <div class="container">
+        <form class="js-form form">
+            <p>
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Kalkulator walutowy</legend>
+                <label>
+                    <span class="form__label--amount">Kwota</span>
+                    <input class="form__amount js-amount" type="number" min="1" step="any" required>
+                </label>
+
+                <select>
+                    <option class="js-amount__usd">USD</option>
+                    <option class="js-amount__eur">EUR</option>
+                    <option class="js-amount__pln">PLN</option>
+                    <option class="js-amount__ars">ARS</option>
+                </select>
+                <br>
+                <label>
+                    <span class="form__label--result">Wynik</span>
+                    <input class="form__result js-result" readonly>
+                </label>
+
+                <select>
+                    <option class="js-result__usd">USD</option>
+                    <option class="js-result__eur">EUR</option>
+                    <option class="js-result__pln">PLN</option>
+                    <option class="js-result__ars">ARS</option>
+                </select>
+                <br>
+                <button class="form__button js-submit">Przelicz</button>
+
+            </fieldset>
+            </p>
+        </form>
+    </div>
+
+    <div class="currency">
+        <h2 class="currency__header">Kurs NBP</h2>
+        <ul class="currency__list">
+            <li>USD - 4,48</li>
+            <li>EUR - 4,69</li>
+            <li>ARS - 0,026</li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

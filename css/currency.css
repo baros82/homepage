@@ -1,0 +1,21 @@
+.currency {
+    max-width: 200px;
+    border-radius: 15px;
+    background-color: #bbb8b84b;
+    box-shadow: 0px 0px 6px 2px #3A3A3A;
+    margin: auto;
+}
+
+.currency__header {
+    text-align: center;
+}
+
+.currency__list {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    list-style: none;
+    margin: auto;
+    padding: 10px;
+    line-height: 2;
+}
