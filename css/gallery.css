@@ -1,0 +1,10 @@
+.gallery {
+    text-align: center;
+    font-size: 40px;
+}
+
+.gallery__images {
+    padding: 15px;
+    width: 285px;
+    height: 285px;
+}

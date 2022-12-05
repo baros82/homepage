@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+
+.body {
+    font-family: 'Lato', sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.body__main {
+    max-width: 1000px;
+    padding: 5px;
+    margin: auto;
+}
+
+.body__line {
+    border-bottom: 10px solid rgb(48, 48, 48);
+}
+
+.list {
+    font-size: 30px;
+    line-height: 2;
+    margin-left: 50px;
+
+}
+
+.paragraph {
+    line-height: 1.5;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+
+.footer {
+    background-color: rgb(202, 202, 202);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}

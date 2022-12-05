@@ -1,0 +1,17 @@
+.object {
+    text-align: center;
+    font-size: 70px;
+}
+
+.object__button {
+    display: block;
+    margin: auto;
+    border: 0px;
+    border-radius: 20px;
+    background-color: rgb(216, 168, 78);
+    margin-top: -50px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px 3px rgba(71, 71, 71, 0.6);
+    font-size: 15px;
+    cursor: pointer;
+}

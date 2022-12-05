@@ -1,0 +1,19 @@
+.table {
+    border-collapse: collapse;
+    margin: auto;
+
+}
+
+.table__cell {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px;
+}
+
+.table__row:nth-child(even) {
+    background-color: rgb(216, 168, 78, 0.473);
+}
+
+.table__container {
+    overflow-x: auto;
+}
