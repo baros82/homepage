@@ -12,7 +12,7 @@ let resultPlnElement = document.querySelector(".js-result__pln");
 let resultArsElement = document.querySelector(".js-result__ars");
 let formElement = document.querySelector(".js-form")
 
-formElement.addEventListener("input", (event) => {
+formElement.addEventListener("submit", (event) => {
      event.preventDefault();
 
 
