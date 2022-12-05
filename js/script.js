@@ -5,12 +5,12 @@ let object = document.querySelector(".js-object");
 
 
 button.addEventListener("click", () => {
-  
-   object.innerText = (object.innerText === "🍕")
-   ? "🍽️" : (object.innerText = "🍕");
 
-   button.innerText = (button.innerText === "Zjedz kawałek") 
-   ? "Zrób nowy" : (button.innerText = "Zjedz kawałek");
+   object.innerText = (object.innerText === "🍕")
+      ? "🍽️" : "🍕"
+
+   button.innerText = (button.innerText === "Zjedz kawałek")
+      ? "Zrób nowy" : "Zjedz kawałek"
 
 });
 
