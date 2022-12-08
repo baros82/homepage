@@ -13,21 +13,14 @@ html {
     margin: auto;
 }
 
-.body__main {
+.main {
     max-width: 1000px;
     padding: 5px;
     margin: auto;
 }
 
-.body__line {
+.line {
     border-bottom: 10px solid rgb(48, 48, 48);
-}
-
-.list {
-    font-size: 30px;
-    line-height: 2;
-    margin-left: 50px;
-
 }
 
 .paragraph {
