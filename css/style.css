@@ -10,10 +10,14 @@ html {
     max-width: 1000px;
     margin: auto;
     font-family: 'Lato', sans-serif;
+    background-image: url("../images/background.jpg");
+    background-size: 80% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .header {
-    background-color: #bbb8b8;
+    background-color: #8a8787;
     border-radius: 20px;
 }
 

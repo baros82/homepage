@@ -10,7 +10,7 @@
 .form__legend {
     font-size: 30px;
     font-weight: bolder;
-    background-color: #bbb8b8;
+    background-color: #8a8787;
     border-radius: 10px;
 }
 
@@ -42,7 +42,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: #bbb8b8;
+    background-color: #8a8787;
     border: 2px, black;
     max-width: 150px;
     width: 100%;
