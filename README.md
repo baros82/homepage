@@ -8,7 +8,7 @@
 [Link to website](https://baros82.github.io/homepage/)
 
 ## Previev
-
+![](https://i.ibb.co/09PtVZk/Animation-Pizza.gif)
 ## Technologies
 - HTMl
 - CSS 
