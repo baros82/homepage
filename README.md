@@ -11,5 +11,6 @@
 
 ## Technologies
 - HTMl
-- CSS (with BEM convention)
+- CSS 
 - JavaScrip
+- BEM
