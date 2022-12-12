@@ -1,4 +1,4 @@
-# Welcom 
+# Welcome
  Hi! I would like to show you my website that I learned to create thanks to YouCode.
  
 ## About
