@@ -1,16 +1,24 @@
-console.log("Hello World");
+{
+   const welcome = () => {
+      console.log("Hello World");
+   };
 
-let button = document.querySelector(".js-object__button");
-let object = document.querySelector(".js-object");
+   const onButtonClick = () => {
+      const object = document.querySelector(".js-object");
+      object.innerText = (object.innerText === "🍕")
+         ? "🍽️" : "🍕"
 
+      button.innerText = (button.innerText === "Zjedz kawałek")
+         ? "Zrób nowy" : "Zjedz kawałek"
+   };
 
-button.addEventListener("click", () => {
+   const init = () => {
+      const button = document.querySelector(".js-object__button");
 
-   object.innerText = (object.innerText === "🍕")
-      ? "🍽️" : "🍕"
+      button.addEventListener("click", onButtonClick);
+      
+      welcome();
+   };
 
-   button.innerText = (button.innerText === "Zjedz kawałek")
-      ? "Zrób nowy" : "Zjedz kawałek"
-
-});
-
+   init();
+};
