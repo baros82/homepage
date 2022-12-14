@@ -1,4 +1,4 @@
-# Welcom 
+# Welcome
  Hi! I would like to show you my website that I learned to create thanks to YouCode.
  
 ## About
@@ -8,7 +8,7 @@
 [Link to website](https://baros82.github.io/homepage/)
 
 ## Previev
-![](https://ibb.co/gWsVFwG)
+![](Images/Animation_Pizza.gif)
 ## Technologies
 - HTMl
 - CSS 
